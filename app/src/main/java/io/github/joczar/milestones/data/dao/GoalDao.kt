@@ -1,4 +1,4 @@
-package io.github.joczar.milestones.dao
+package io.github.joczar.milestones.data.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -6,8 +6,8 @@ import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Transaction
 import androidx.room.Update
-import io.github.joczar.milestones.model.Goal
-import io.github.joczar.milestones.model.GoalWithSteps
+import io.github.joczar.milestones.data.model.Goal
+import io.github.joczar.milestones.data.model.GoalWithSteps
 import kotlinx.coroutines.flow.Flow
 
 @Dao

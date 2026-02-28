@@ -1,4 +1,4 @@
-package io.github.joczar.milestones.model
+package io.github.joczar.milestones.data.model
 
 import androidx.room.Embedded
 import androidx.room.Relation
